@@ -1,0 +1,15 @@
+export const channels = {
+  models: 'models:list',
+  settings: 'settings:get',
+  save: 'settings:save',
+  begin: 'dictation:begin',
+  transcribe: 'dictation:transcribe',
+  state: 'dictation:state',
+  publish: 'dictation:publish',
+  changed: 'dictation:changed',
+  toggle: 'dictation:toggle',
+  openSettings: 'window:settings',
+  showToolbar: 'window:toolbar',
+  quit: 'app:quit',
+  copy: 'text:copy',
+} as const;
