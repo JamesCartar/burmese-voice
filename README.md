@@ -1,6 +1,12 @@
 # Burmese Voice
 
-Local Windows 11 dictation app: Electron, React, TypeScript, Tailwind, CLI-generated shadcn components, the official OpenRouter SDK, and TanStack Query for the model catalog.
+## Why I built this
+
+I often get messages from friends or coworkers while I'm busy doing something else and only have one hand free. Typing replies in Burmese with one hand is difficult, so I wanted a simple way to speak my response instead of typing it.
+
+That's why I built **Burmese Voice**, a Windows 11 voice-typing app for Burmese and English. It's a **bring your own key (BYOK)** project: you connect your own OpenRouter API key, choose a model, and pay for your usage through your own account.
+
+Built with Electron, React, TypeScript, Tailwind, CLI-generated shadcn components, the official OpenRouter SDK, and TanStack Query for the model catalog.
 
 ## Launch
 
